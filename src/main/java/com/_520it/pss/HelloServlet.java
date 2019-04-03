@@ -18,6 +18,7 @@ public class HelloServlet extends HttpServlet{
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		System.out.println("hello world");
 		req.setAttribute("jining", "hello world");
+		System.out.println("commit sectond");
 		req.getRequestDispatcher("hello.jsp").forward(req, resp);
 	}
 
