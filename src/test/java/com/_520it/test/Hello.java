@@ -6,7 +6,7 @@ public class Hello {
         System.out.println("idea");
         System.out.println("ecplise");
         System.out.println("git hello");
-        System.out.println("git hello 2");
+        System.out.println("git hello 2");System.out.println("git hello shyji");
 
     }
 }
