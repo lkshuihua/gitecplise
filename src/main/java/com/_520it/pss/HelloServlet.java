@@ -19,7 +19,7 @@ public class HelloServlet extends HttpServlet{
 		System.out.println("hello world");
 		req.setAttribute("jining", "hello world2");
 		System.out.println("commit sectond shyji");System.out.println("hot_fix");
-		
+		System.out.println("master2");
 		req.getRequestDispatcher("hello.jsp").forward(req, resp);
 	}
 
