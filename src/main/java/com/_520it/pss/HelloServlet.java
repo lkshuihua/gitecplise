@@ -22,6 +22,7 @@ public class HelloServlet extends HttpServlet{
 		System.out.println("hot_fix2");
 		
 		req.getRequestDispatcher("hello.jsp").forward(req, resp);
+		System.out.println("game");
 	}
 
 }
